@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Train Scheduler</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="jumbotron">
+            <div class="text-center">
+                <h1>Intermodal Train Schedule</h1>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-lg-12">
+            <div class="panel panel-primary panelCustom">
+                <div class="panel-heading">
+                    <h2 class='panel-title'>Trains Enroute</h2>
+                </div>
+                <div class="panel-body">
+                    <table class="train-table">
+                        <thead>
+                            <tr>
+                                <th>Train Name</th>
+                                <th>Destination</th>
+                                <th>Frequency</th>
+                                <th>Next Arrival</th>
+                                <th>Minutes Away</th>
+                            </tr>
+                        </thead>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+            <div class="col-lg-12">
+                <div class="panel panel-primary panelCustom">
+                    <div class="panel-heading">
+                        <h3 class="panel-title"></h3>
+                    </div>
+                    <div class="panel-body">
+                        <form role="form">
+                            <div class="form-group">
+                                <label for="search">Train Name</label>
+                                <input type="text" class="form-control trainName">
+                            </div>
+                            <div class="form-group">
+                                <label for="startYear">Destination</label>
+                                <input type="text" class="form-control destination">
+                            </div>
+                            <div class="form-group">
+                                    <label for="endYear">First Train Time</label>
+                                    <input type="text" class="form-control firstTrain">
+                            </div>
+                            <div class="form-group">
+                                    <label for="endYear">Frequency</label>
+                                    <input type="text" class="form-control frequency">
+                            </div>
+                            <button type="search" class="btn btn-default submitBtn">Calculate</button>
+                            <button type="button" class="btn btn-default clearBtn">Clear</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+  <script src="assets/javascript/app.js"></script>  
+</body>
+</html>
