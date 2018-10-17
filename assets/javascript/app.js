@@ -10,4 +10,5 @@ $(document).ready(function() {
   };
 firebase.initializeApp(config);
 database = firebase.database();
+
 });

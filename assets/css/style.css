@@ -5,3 +5,9 @@ body {
     background-repeat: no-repeat;
     background-position: center center;
 }
+.jumbo {
+    opacity: 0.5;
+}
+.panelCustom {
+    opacity: 0.5;
+}
