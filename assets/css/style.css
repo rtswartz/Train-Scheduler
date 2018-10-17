@@ -6,8 +6,12 @@ body {
     background-position: center center;
 }
 .jumbo {
-    opacity: 0.5;
+    opacity: 0.75;
 }
 .panelCustom {
-    opacity: 0.5;
+    opacity: 0.75;
+}
+.table {
+    margin-left: auto;
+    margin-right: auto;
 }
